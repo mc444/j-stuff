@@ -1,6 +1,6 @@
-NB.Surface stellt die Fläche sin(r)/r für x,y -15..+15,-15..+15 dar.
+NB.Surface draws the surface sin(r)/r for x,y -15..+15,-15..+15.
 load 'plot trig numeric'
-x =. steps _15 15 99 NB.0,0 ist eine 0/0-Stelle, wird hier weggelassen
+x =. steps _15 15 99 NB.0,0 is a 0/0-position, left out here.
 y =. steps _15 15 99
 z =. x j./ y
 r =. | z

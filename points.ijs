@@ -1,3 +1,4 @@
+NB. Points draws some points in a grid.
 require 'gl2 numeric'
 coinsert 'jgl2'
 
